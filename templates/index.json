@@ -1,6 +1,7 @@
 {
   "sections": {
     "slideshow": {
+      "disabled": false,
       "type": "slideshow",
       "settings": {
         "section_height": "natural",
@@ -14,8 +15,6 @@
           "type": "image",
           "icon": "image",
           "settings": {
-            "image": {},
-            "image_mobile": {},
             "overlay_opacity": 0,
             "pc_text_position": "center flex-end",
             "pc_text_align": "center",
@@ -27,15 +26,15 @@
             "link_text": "Shop this",
             "is_profile_link": false,
             "link_text_2": "Shop all",
-            "is_profile_link2": false
+            "is_profile_link2": false,
+            "image": {},
+            "image_mobile": {}
           }
         },
         "block-2": {
           "type": "image",
           "icon": "image",
           "settings": {
-            "image": {},
-            "image_mobile": {},
             "overlay_opacity": 0,
             "pc_text_position": "center flex-end",
             "pc_text_align": "center",
@@ -47,15 +46,16 @@
             "link_text": "Shop this",
             "is_profile_link": false,
             "link_text_2": "Shop all",
-            "is_profile_link2": false
+            "is_profile_link2": false,
+            "image": {},
+            "image_mobile": {}
           }
         }
       },
       "block_order": [
         "block-1",
         "block-2"
-      ],
-      "disabled": false
+      ]
     },
     "collection-list": {
       "disabled": false,
@@ -108,25 +108,28 @@
       "disabled": false,
       "type": "featured-collection",
       "settings": {
-        "title": "Featured collection",
+        "title": "Featured collection xiugai update",
         "heading_size": "title3",
         "show_description": false,
+        "collection": "12251050948203445750420820",
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
         "columns_mobile": 2,
         "enable_desktop_slider": false,
         "enable_mobile_slider": false,
+        "page_style": "number",
         "button_text": "View all",
         "product_image_ratio": "150",
+        "image_fill_type": "contain",
+        "image_grid_shape": "square",
         "show_secondary_image": false,
         "enable_quick_add": false,
         "padding_top": 40,
-        "padding_bottom": 40,
-        "page_style": "number",
-        "collection": null
+        "padding_bottom": 40
       },
-      "blocks": {}
+      "blocks": {},
+      "custom_css": []
     },
     "multi-media-splicing": {
       "disabled": false,
@@ -434,8 +437,8 @@
           "type": "collection",
           "icon": "productCategories",
           "settings": {
-            "category_id": "",
-            "title": "Tab tittle"
+            "title": "Tab tittle",
+            "category_id": ""
           },
           "blockId": "1721378918371ad84fa9"
         },
@@ -443,8 +446,8 @@
           "type": "collection",
           "icon": "productCategories",
           "settings": {
-            "category_id": "",
-            "title": "Tab tittle"
+            "title": "Tab tittle",
+            "category_id": ""
           },
           "blockId": "172137891837170bc777"
         },
@@ -452,8 +455,8 @@
           "type": "collection",
           "icon": "productCategories",
           "settings": {
-            "category_id": "",
-            "title": "Tab tittle"
+            "title": "Tab tittle",
+            "category_id": ""
           },
           "blockId": "17213789183718f2682b"
         },
@@ -461,8 +464,8 @@
           "type": "collection",
           "icon": "productCategories",
           "settings": {
-            "category_id": "",
-            "title": "Tab tittle"
+            "title": "Tab tittle",
+            "category_id": ""
           },
           "blockId": "1721378918371e606b95"
         }
@@ -620,8 +623,8 @@
           "type": "collection",
           "icon": "productCategories",
           "settings": {
-            "category_id": "",
-            "title": "Tab tittle"
+            "title": "Tab tittle",
+            "category_id": ""
           },
           "blockId": "1721378918371ad84fa9"
         },
@@ -629,8 +632,8 @@
           "type": "collection",
           "icon": "productCategories",
           "settings": {
-            "category_id": "",
-            "title": "Tab tittle"
+            "title": "Tab tittle",
+            "category_id": ""
           },
           "blockId": "172137891837170bc777"
         },
@@ -638,8 +641,8 @@
           "type": "collection",
           "icon": "productCategories",
           "settings": {
-            "category_id": "",
-            "title": "Tab tittle"
+            "title": "Tab tittle",
+            "category_id": ""
           },
           "blockId": "17213789183718f2682b"
         },
@@ -647,8 +650,8 @@
           "type": "collection",
           "icon": "productCategories",
           "settings": {
-            "category_id": "",
-            "title": "Tab tittle"
+            "title": "Tab tittle",
+            "category_id": ""
           },
           "blockId": "1721378918371e606b95"
         }
@@ -806,8 +809,8 @@
           "type": "collection",
           "icon": "productCategories",
           "settings": {
-            "category_id": "",
-            "title": "Tab tittle"
+            "title": "Tab tittle",
+            "category_id": ""
           },
           "blockId": "1721378918371ad84fa9"
         },
@@ -815,8 +818,8 @@
           "type": "collection",
           "icon": "productCategories",
           "settings": {
-            "category_id": "",
-            "title": "Tab tittle"
+            "title": "Tab tittle",
+            "category_id": ""
           },
           "blockId": "172137891837170bc777"
         },
@@ -824,8 +827,8 @@
           "type": "collection",
           "icon": "productCategories",
           "settings": {
-            "category_id": "",
-            "title": "Tab tittle"
+            "title": "Tab tittle",
+            "category_id": ""
           },
           "blockId": "17213789183718f2682b"
         },
@@ -833,8 +836,8 @@
           "type": "collection",
           "icon": "productCategories",
           "settings": {
-            "category_id": "",
-            "title": "Tab tittle"
+            "title": "Tab tittle",
+            "category_id": ""
           },
           "blockId": "1721378918371e606b95"
         }
@@ -992,8 +995,8 @@
           "type": "collection",
           "icon": "productCategories",
           "settings": {
-            "category_id": "",
-            "title": "Tab tittle"
+            "title": "Tab tittle",
+            "category_id": ""
           },
           "blockId": "1721378918371ad84fa9"
         },
@@ -1001,8 +1004,8 @@
           "type": "collection",
           "icon": "productCategories",
           "settings": {
-            "category_id": "",
-            "title": "Tab tittle"
+            "title": "Tab tittle",
+            "category_id": ""
           },
           "blockId": "172137891837170bc777"
         },
@@ -1010,8 +1013,8 @@
           "type": "collection",
           "icon": "productCategories",
           "settings": {
-            "category_id": "",
-            "title": "Tab tittle"
+            "title": "Tab tittle",
+            "category_id": ""
           },
           "blockId": "17213789183718f2682b"
         },
@@ -1019,8 +1022,8 @@
           "type": "collection",
           "icon": "productCategories",
           "settings": {
-            "category_id": "",
-            "title": "Tab tittle"
+            "title": "Tab tittle",
+            "category_id": ""
           },
           "blockId": "1721378918371e606b95"
         }
@@ -1178,8 +1181,8 @@
           "type": "collection",
           "icon": "productCategories",
           "settings": {
-            "category_id": "",
-            "title": "Tab tittle"
+            "title": "Tab tittle",
+            "category_id": ""
           },
           "blockId": "1721378918371ad84fa9"
         },
@@ -1187,8 +1190,8 @@
           "type": "collection",
           "icon": "productCategories",
           "settings": {
-            "category_id": "",
-            "title": "Tab tittle"
+            "title": "Tab tittle",
+            "category_id": ""
           },
           "blockId": "172137891837170bc777"
         },
@@ -1196,8 +1199,8 @@
           "type": "collection",
           "icon": "productCategories",
           "settings": {
-            "category_id": "",
-            "title": "Tab tittle"
+            "title": "Tab tittle",
+            "category_id": ""
           },
           "blockId": "17213789183718f2682b"
         },
@@ -1205,8 +1208,8 @@
           "type": "collection",
           "icon": "productCategories",
           "settings": {
-            "category_id": "",
-            "title": "Tab tittle"
+            "title": "Tab tittle",
+            "category_id": ""
           },
           "blockId": "1721378918371e606b95"
         }
