@@ -18,6 +18,7 @@
         "product_image_ratio": "150",
         "image_fill_type": "contain",
         "show_secondary_image": false,
+        "mobile_show_secondary_image": false,
         "enable_quick_add": true,
         "enable_filtering": true,
         "filter_type": "horizontal",
