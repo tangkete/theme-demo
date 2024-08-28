@@ -1,16 +1,17 @@
 {
   "sections": {
     "main-collection-banner": {
-      "type": "main-collection-banner",
       "disabled": false,
+      "type": "main-collection-banner",
       "settings": {
         "show_collection_description": true,
         "show_collection_cover": true
-      }
+      },
+      "blocks": {}
     },
     "main-collection-product-list": {
-      "type": "main-collection-product-list",
       "disabled": false,
+      "type": "main-collection-product-list",
       "settings": {
         "products_per_page": 16,
         "columns_desktop": 4,
@@ -24,11 +25,77 @@
         "enable_sorting": true,
         "padding_top": 40,
         "padding_bottom": 80
-      }
+      },
+      "blocks": {}
+    },
+    "17248372653244a62222": {
+      "disabled": false,
+      "type": "slideshow",
+      "settings": {
+        "section_height": "natural",
+        "mobile_height": "natural",
+        "style": "dots",
+        "autoplay": true,
+        "autoplay_speed": 7
+      },
+      "blocks": {
+        "1724837265324872e4d4": {
+          "type": "image",
+          "icon": "image",
+          "settings": {
+            "image": "shopline://shop_images/92805405-09b5-4e37-86da-a61a656f5ea1.png",
+            "image_mobile": {},
+            "overlay_opacity": 0,
+            "text_mask": false,
+            "text_mask_color": "deep",
+            "pc_text_position": "center flex-end",
+            "pc_text_align": "center",
+            "mobile_text_align": "center",
+            "sub_title": "",
+            "title": "Two Line\nTitle Slide",
+            "title_size": 70,
+            "subheading": "And optional subtext",
+            "link_text": "Shop this",
+            "is_profile_link": false,
+            "link_text_2": "Shop all",
+            "is_profile_link2": false
+          },
+          "blockId": "1724837265324872e4d4"
+        },
+        "17248372653244d3eead": {
+          "type": "image",
+          "icon": "image",
+          "settings": {
+            "image": "shopline://shop_images/c643dca4-e491-4049-8cbd-9b7e9b5b842f.png",
+            "image_mobile": {},
+            "overlay_opacity": 0,
+            "text_mask": false,
+            "text_mask_color": "deep",
+            "pc_text_position": "center flex-end",
+            "pc_text_align": "center",
+            "mobile_text_align": "center",
+            "sub_title": "",
+            "title": "Two Line\nTitle Slide",
+            "title_size": 70,
+            "subheading": "And optional subtext",
+            "link_text": "Shop this",
+            "is_profile_link": false,
+            "link_text_2": "Shop all",
+            "is_profile_link2": false
+          },
+          "blockId": "17248372653244d3eead"
+        }
+      },
+      "block_order": [
+        "1724837265324872e4d4",
+        "17248372653244d3eead"
+      ],
+      "custom_css": []
     }
   },
   "order": [
     "main-collection-banner",
-    "main-collection-product-list"
+    "main-collection-product-list",
+    "17248372653244a62222"
   ]
 }
