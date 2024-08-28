@@ -1,10 +1,59 @@
 {
   "sections": {
     "main": {
-      "type": "main-404"
+      "disabled": false,
+      "type": "main-404",
+      "settings": {},
+      "blocks": {}
+    },
+    "172484042908944e8eba": {
+      "disabled": false,
+      "type": "rich-text",
+      "settings": {
+        "desktop_content_position": "center",
+        "color_scheme": "none",
+        "normal_width": true,
+        "padding_top": 80,
+        "padding_bottom": 80
+      },
+      "blocks": {
+        "1724840429089f0703f2": {
+          "type": "heading",
+          "settings": {
+            "heading": "heading",
+            "heading_size": "title3"
+          },
+          "blockId": "1724840429089f0703f2"
+        },
+        "1724840429089470a2d6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A sentence or two introducing your brand, what you sell, and what makes your brand compelling to customers.</p>"
+          },
+          "blockId": "1724840429089470a2d6"
+        },
+        "17248404290893664d4a": {
+          "type": "button",
+          "settings": {
+            "button_text": "Button",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_text_2": "Button 2",
+            "button_link_2": "",
+            "button_style_secondary_2": true
+          },
+          "blockId": "17248404290893664d4a"
+        }
+      },
+      "block_order": [
+        "1724840429089f0703f2",
+        "1724840429089470a2d6",
+        "17248404290893664d4a"
+      ]
     }
   },
   "order": [
-    "main"
+    "main",
+    "172484042908944e8eba"
   ]
 }
